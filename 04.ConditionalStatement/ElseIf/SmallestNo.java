@@ -5,9 +5,9 @@ public class SmallestNo {
         int x = 2;
         int y = 7;
         int z = 0;
-        if( x<y && x<z){
+        if( x<=y && x<=z){
             System.out.print("Smallest number is :" + x);
-        } else if( y<x && y<z){
+        } else if(  y<=z){
             System.out.print("Smallest number is :" + y);
     } else {
         System.out.print("Smallest number is :" + z);

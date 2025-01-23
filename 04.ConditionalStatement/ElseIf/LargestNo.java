@@ -5,10 +5,10 @@ public class LargestNo {
         int a = 10;
         int b = 34;
         int c = 3;
-        if (a > b && a > c) {
+        if (a >= b && a >= c) {
             System.out.print("Largest number is :" + a);
         }
-         else if (b > a && b > c) {
+         else if (b >= c) {
             System.out.print("Largest number is :" + b);
         } 
         else {
